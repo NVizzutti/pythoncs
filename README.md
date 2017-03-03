@@ -27,7 +27,8 @@ class teamHandler(webapp.RequestHandler):
       template_values={'TeamA': TeamA,'TeamB':TeamB,'user':nickname,'previous':previous}
       path = os.path.join(os.path.dirname(__file__),'input.html')
       self.response.out.write(template.render(path,template_values))
-      ```
+```
+      
 The application handled user sessions and would allow users to input team data and basketball statistics to calculaute a point spread and win percentage prediction. 
 (never was quite accurate enough to get me rich though, guess I needed to incorporate machine learning)
 
