@@ -33,8 +33,8 @@ The application handled user sessions and would allow users to input team data a
 (never was quite accurate enough to get me rich though, guess I needed to incorporate machine learning)
 
 ###Hangman 
-Hangman was built as a console game and then adapted later for the web using some minimal controller logic and images to represent gameplay. 
+Hangman was built as a console game and then adapted later for the web using some minimal controller logic and images to represent gameplay. This also ran on google app engine originally. 
 
 ###Mastermind 
-The classic game in the console, easy for a beginner to create. 
+The classic game for the console, it was one of the first games I wrote in a scripting language. The game still functions, despite having some less than perfect implementation. 
  
