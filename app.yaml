@@ -1,0 +1,11 @@
+application: vizhandicapper
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /images
+  static_dir: images
+- url: /.*
+  script: handicap_controller.py
+  login: required
