@@ -1,8 +1,9 @@
-##Old Python 
-####(2009)
+<b>Old Python</b>
+
 This code was written by me in college when I was beginning to learn programming for the first time. There are two console games hangman and mastermind, as well as a small application that calculated point spreads for basketball. This code hasn't been refactored, but did help me reacquaint with python once I was more skilled in OOP. 
 
-##Handicapper 
+<b>Handicapper</b>
+
 This small web application was the first actual application I built. It was developed completely in python and HTML, using Django. It was originally deployed on google app engine but has since been deleted when it became a paid service. 
 
 ```Python
@@ -32,9 +33,11 @@ class teamHandler(webapp.RequestHandler):
 The application handled user sessions and would allow users to input team data and basketball statistics to calculaute a point spread and win percentage prediction. 
 (never was quite accurate enough to get me rich though, guess I needed to incorporate machine learning)
 
-###Hangman 
+<b>Hangman</b>
+
 Hangman was built as a console game and then adapted later for the web using some minimal controller logic and images to represent gameplay. This also ran on google app engine originally. 
 
-###Mastermind 
+<b>Mastermind</b>
+
 The classic game for the console, it was one of the first games I wrote in a scripting language. The game still functions, despite having some less than perfect implementation. 
  
